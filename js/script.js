@@ -1,7 +1,6 @@
 function runTypingEffect() {
   const text = 'I am Ashenafi Damena.';
   const typingElement = document.getElementById('typing-text');
-  const typingDelay = 100; // Delay in milliseconds
 
   typeText(text, typingElement, typingDelay);
 }
